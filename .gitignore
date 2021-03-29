@@ -1,0 +1,14 @@
+# All node modules, will be created for your system when you run yarn
+node_modules
+node_modules/*
+yarn-error.log
+yarn.lock
+
+# Environment file create one using .env.example file
+.env
+
+# MacOs spesific files
+.DS_Store
+
+# Build folder after webpack build
+dist
